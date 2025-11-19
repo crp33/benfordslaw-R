@@ -19,12 +19,11 @@ For a given digit d, Benford’s Law states that the probability of d being the 
 P(d)=log⁡10(1+1/d) so P(1)=log10(1+ 1/1 ) = 10log2=0.301 p(9)=log10(1+1/9)=log10(1.11)=0.046
 
 # 🔧 How the Notebook "Trains" the Model
-While Benford’s Law is not "trained" like machine learning, your notebook derives empirical frequencies from your dataset and compares them to the theoretical Benford distribution.
+While Benford’s Law is not "trained" like machine learning, the notebook derives empirical frequencies from the dataset and compares them to the theoretical Benford distribution.
 
 # 📊 The Dataset You Tested
-From your benford.ipynb, you are testing Benford’s Law on:
-The numeric values loaded into your vector 
-Your notebook validates whether the dataset behaves like a typical real-world collection of numbers or if it has characteristics suggesting artificial structure or manipulation.
+The numeric values loaded into the vector 
+the notebook validates whether the dataset behaves like a typical real-world collection of numbers or if it has characteristics suggesting artificial structure or manipulation.
 
 1 Digit (Standard Benford Test)
 Tests only the first digit.
